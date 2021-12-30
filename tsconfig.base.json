@@ -13,8 +13,18 @@
     "lib": ["es2017", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
+    "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-nextjs/markdown": ["libs/markdown/src/index.ts"],
+      "@nx-nextjs/shared/mdx-elements": [
+        "libs/shared/mdx-elements/src/index.ts"
+      ],
+      "@nx-nextjs/shared/mdx-elements/*": [
+        "libs/shared/mdx-elements/src/lib/*"
+      ],
+      "@nx-nextjs/shared/ui": ["libs/shared/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
