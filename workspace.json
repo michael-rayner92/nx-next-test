@@ -9,6 +9,11 @@
     "site": "apps/site",
     "site-e2e": "apps/site-e2e",
     "storybook-e2e-ui-e2e": "apps/storybook-e2e/ui-e2e",
-    "site-articles": "_articles"
+    "site-articles": {
+      "root": "_articles",
+      "sourceRoot": "_articles",
+      "projectType": "application",
+      "target": {}
+    }
   }
 }
