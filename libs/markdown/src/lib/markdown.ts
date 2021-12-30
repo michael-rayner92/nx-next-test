@@ -4,6 +4,8 @@ import { readFileSync } from 'fs';
 import { serialize } from 'next-mdx-remote/serialize';
 import matter from 'gray-matter';
 
+console.log('test');
+
 export const getParsedFileContentBySlug = (
   fileName: string,
   postsPath: string
