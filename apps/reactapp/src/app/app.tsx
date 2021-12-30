@@ -1,7 +1,6 @@
 import styles from './app.module.css';
 import { TopicButton } from '@nx-nextjs/shared/ui';
 import { ReactComponent as Logo } from './logo.svg';
-import star from './star.svg';
 
 import { Route, Link } from 'react-router-dom';
 
