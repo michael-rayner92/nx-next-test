@@ -1,3 +1,6 @@
+#!/bin/bash
+
+echo "VERCEL_ENV: $VERCEL_ENV"
 
 # Name of the app to check. Change this to your application name!
 APP=site
